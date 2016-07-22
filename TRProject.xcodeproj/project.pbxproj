@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E67ABAA1424CA70AE73070B /* libPods-TRProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F54CE0222A3F4E0D59483 /* libPods-TRProject.a */; };
+		382C11831C7E8CDD00F34BB0 /* AppDelegate+System.m in Sources */ = {isa = PBXBuildFile; fileRef = 382C11821C7E8CDD00F34BB0 /* AppDelegate+System.m */; };
+		382C976A1C81D686003D1D51 /* UIView+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 382C97691C81D686003D1D51 /* UIView+HUD.m */; };
+		3851FBE11D0F0C110054BDA0 /* TRBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3851FBE01D0F0C110054BDA0 /* TRBaseViewModel.m */; };
+		386BF94B1CBB3C9600BC74F1 /* NSObject+Parse.m in Sources */ = {isa = PBXBuildFile; fileRef = 386BF94A1CBB3C9600BC74F1 /* NSObject+Parse.m */; };
+		386BF94E1CBB3CE200BC74F1 /* NSString+YX.m in Sources */ = {isa = PBXBuildFile; fileRef = 386BF94D1CBB3CE200BC74F1 /* NSString+YX.m */; };
+		3899BC981C7D87620032ADEA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3899BC971C7D87620032ADEA /* CFNetwork.framework */; };
+		38A1A3461C745317007EEEB7 /* NSObject+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1A3411C745317007EEEB7 /* NSObject+AFNetworking.m */; };
+		38A1A3481C745317007EEEB7 /* UIScrollView+Refresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A1A3451C745317007EEEB7 /* UIScrollView+Refresh.m */; };
+		38A641F81C8C225D00FCBF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A641F51C8C225D00FCBF96 /* Assets.xcassets */; };
+		38A641F91C8C225D00FCBF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A641F61C8C225D00FCBF96 /* LaunchScreen.storyboard */; };
+		38A641FA1C8C225D00FCBF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A641F71C8C225D00FCBF96 /* Main.storyboard */; };
+		38ADA3B81C626AAF0093502F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA3B71C626AAF0093502F /* main.m */; };
+		38ADA3BB1C626AAF0093502F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ADA3BA1C626AAF0093502F /* AppDelegate.m */; };
+		DB038E391D26A82200D84366 /* YXSearchPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB038E381D26A82200D84366 /* YXSearchPageViewController.m */; };
+		DB038E3C1D26AABA00D84366 /* XLPlainFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB038E3B1D26AABA00D84366 /* XLPlainFlowLayout.m */; };
+		DB038E421D26CD0700D84366 /* YXSearchHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB038E411D26CD0700D84366 /* YXSearchHeaderView.m */; };
+		DB038E451D26CD2B00D84366 /* YXSearchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB038E441D26CD2B00D84366 /* YXSearchCell.m */; };
+		DB038E481D26E4D400D84366 /* YXMyPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB038E471D26E4D400D84366 /* YXMyPageViewController.m */; };
+		DB038E4B1D270DCA00D84366 /* YXCookMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB038E4A1D270DCA00D84366 /* YXCookMenuViewController.m */; };
+		DB3C33541D2F6AF8009F7F84 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C33521D2F6AF8009F7F84 /* MOBFoundation.framework */; };
+		DB3C33551D2F6AF8009F7F84 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C33531D2F6AF8009F7F84 /* SMS_SDK.framework */; };
+		DB3C33571D2F6B49009F7F84 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C33561D2F6B49009F7F84 /* libstdc++.tbd */; };
+		DB3C33591D2F6B59009F7F84 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C33581D2F6B59009F7F84 /* JavaScriptCore.framework */; };
+		DB3C335B1D2F6B67009F7F84 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C335A1D2F6B67009F7F84 /* MessageUI.framework */; };
+		DB3C335D1D2F6B85009F7F84 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C335C1D2F6B85009F7F84 /* libicucore.tbd */; };
+		DB3C335F1D2F6B9A009F7F84 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DB3C335E1D2F6B9A009F7F84 /* libz.tbd */; };
+		DB3CE7001D12315E009D3F52 /* YXMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CE6FF1D12315E009D3F52 /* YXMenuModel.m */; };
+		DB3CEAA91D12BC2D009D3F52 /* YXNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEAA81D12BC2D009D3F52 /* YXNetManager.m */; };
+		DB3CEAAC1D12BE91009D3F52 /* YXMenuViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEAAB1D12BE91009D3F52 /* YXMenuViewModel.m */; };
+		DB3CEAAF1D137F04009D3F52 /* YXFirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEAAE1D137F04009D3F52 /* YXFirstPageViewController.m */; };
+		DB3CEAD81D13916B009D3F52 /* YXFirstPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEAD71D13916B009D3F52 /* YXFirstPageCell.m */; };
+		DB3CEB041D13A908009D3F52 /* StickCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3CEB031D13A908009D3F52 /* StickCollectionViewFlowLayout.m */; };
+		DB6F045F1D2A1FF70052CD75 /* YXCookMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F045E1D2A1FF70052CD75 /* YXCookMenuView.m */; };
+		DB6F04BD1D2B95210052CD75 /* KxMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DB6F04BC1D2B95210052CD75 /* KxMenu.m */; };
+		DB6F04C11D2B987D0052CD75 /* MyBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB6F04C01D2B987D0052CD75 /* MyBundle.bundle */; };
+		DBC9CE271D2BB3BA002577EB /* YXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE261D2BB3BA002577EB /* YXLoginViewController.m */; };
+		DBC9CE2A1D2D0910002577EB /* YXSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE291D2D0910002577EB /* YXSettingViewController.m */; };
+		DBC9CE2D1D2DE211002577EB /* YXWelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE2C1D2DE211002577EB /* YXWelcomeViewController.m */; };
+		DBC9CE321D2E1577002577EB /* YXIdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE311D2E1577002577EB /* YXIdeaViewController.m */; };
+		DBC9CE351D2E1CE8002577EB /* YXAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE341D2E1CE8002577EB /* YXAboutViewController.m */; };
+		DBC9CE381D2E1D37002577EB /* YXQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE371D2E1D37002577EB /* YXQuestionViewController.m */; };
+		DBC9CE401D2E5C02002577EB /* YXSearchSomeThingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE3F1D2E5C02002577EB /* YXSearchSomeThingViewController.m */; };
+		DBC9CE431D2E6835002577EB /* YXSearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE421D2E6835002577EB /* YXSearchViewModel.m */; };
+		DBC9CE461D2F4394002577EB /* LBToAppStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE451D2F4394002577EB /* LBToAppStore.m */; };
+		DBC9CE4A1D2F48C9002577EB /* YXRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9CE491D2F48C9002577EB /* YXRegisterViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		382C11811C7E8CDD00F34BB0 /* AppDelegate+System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+System.h"; sourceTree = "<group>"; };
+		382C11821C7E8CDD00F34BB0 /* AppDelegate+System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+System.m"; sourceTree = "<group>"; };
+		382C97681C81D686003D1D51 /* UIView+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HUD.h"; sourceTree = "<group>"; };
+		382C97691C81D686003D1D51 /* UIView+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HUD.m"; sourceTree = "<group>"; };
+		3851ED221D0F081E0054BDA0 /* RequestPaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestPaths.h; sourceTree = "<group>"; };
+		3851FBDD1D0F0A750054BDA0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3851FBDF1D0F0C110054BDA0 /* TRBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRBaseViewModel.h; sourceTree = "<group>"; };
+		3851FBE01D0F0C110054BDA0 /* TRBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRBaseViewModel.m; sourceTree = "<group>"; };
+		386BF9491CBB3C9600BC74F1 /* NSObject+Parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Parse.h"; sourceTree = "<group>"; };
+		386BF94A1CBB3C9600BC74F1 /* NSObject+Parse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Parse.m"; sourceTree = "<group>"; };
+		386BF94C1CBB3CE200BC74F1 /* NSString+YX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+YX.h"; sourceTree = "<group>"; };
+		386BF94D1CBB3CE200BC74F1 /* NSString+YX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+YX.m"; sourceTree = "<group>"; };
+		3899BC971C7D87620032ADEA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		38A1A3381C74527F007EEEB7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		38A1A33F1C7452F2007EEEB7 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		38A1A3401C745317007EEEB7 /* NSObject+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AFNetworking.h"; sourceTree = "<group>"; };
+		38A1A3411C745317007EEEB7 /* NSObject+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AFNetworking.m"; sourceTree = "<group>"; };
+		38A1A3441C745317007EEEB7 /* UIScrollView+Refresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Refresh.h"; sourceTree = "<group>"; };
+		38A1A3451C745317007EEEB7 /* UIScrollView+Refresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Refresh.m"; sourceTree = "<group>"; };
+		38A641F51C8C225D00FCBF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38A641F61C8C225D00FCBF96 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38A641F71C8C225D00FCBF96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		38ADA3B31C626AAF0093502F /* TRProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38ADA3B71C626AAF0093502F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38ADA3B91C626AAF0093502F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38ADA3BA1C626AAF0093502F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A8F54CE0222A3F4E0D59483 /* libPods-TRProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D5968AB9B9E44E939066EA /* Pods-TRProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRProject/Pods-TRProject.release.xcconfig"; sourceTree = "<group>"; };
+		DB038E371D26A82200D84366 /* YXSearchPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXSearchPageViewController.h; path = ../YXSearchPageViewController.h; sourceTree = "<group>"; };
+		DB038E381D26A82200D84366 /* YXSearchPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXSearchPageViewController.m; path = ../YXSearchPageViewController.m; sourceTree = "<group>"; };
+		DB038E3A1D26AABA00D84366 /* XLPlainFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLPlainFlowLayout.h; sourceTree = "<group>"; };
+		DB038E3B1D26AABA00D84366 /* XLPlainFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLPlainFlowLayout.m; sourceTree = "<group>"; };
+		DB038E401D26CD0700D84366 /* YXSearchHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSearchHeaderView.h; sourceTree = "<group>"; };
+		DB038E411D26CD0700D84366 /* YXSearchHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSearchHeaderView.m; sourceTree = "<group>"; };
+		DB038E431D26CD2B00D84366 /* YXSearchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSearchCell.h; sourceTree = "<group>"; };
+		DB038E441D26CD2B00D84366 /* YXSearchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSearchCell.m; sourceTree = "<group>"; };
+		DB038E461D26E4D400D84366 /* YXMyPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXMyPageViewController.h; path = ../YXMyPageViewController.h; sourceTree = "<group>"; };
+		DB038E471D26E4D400D84366 /* YXMyPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXMyPageViewController.m; path = ../YXMyPageViewController.m; sourceTree = "<group>"; };
+		DB038E491D270DCA00D84366 /* YXCookMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXCookMenuViewController.h; path = ../YXCookMenuViewController.h; sourceTree = "<group>"; };
+		DB038E4A1D270DCA00D84366 /* YXCookMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXCookMenuViewController.m; path = ../YXCookMenuViewController.m; sourceTree = "<group>"; };
+		DB3C33521D2F6AF8009F7F84 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		DB3C33531D2F6AF8009F7F84 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		DB3C33561D2F6B49009F7F84 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		DB3C33581D2F6B59009F7F84 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		DB3C335A1D2F6B67009F7F84 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DB3C335C1D2F6B85009F7F84 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		DB3C335E1D2F6B9A009F7F84 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		DB3CE6FE1D12315E009D3F52 /* YXMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXMenuModel.h; sourceTree = "<group>"; };
+		DB3CE6FF1D12315E009D3F52 /* YXMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXMenuModel.m; sourceTree = "<group>"; };
+		DB3CEAA71D12BC2D009D3F52 /* YXNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXNetManager.h; sourceTree = "<group>"; };
+		DB3CEAA81D12BC2D009D3F52 /* YXNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXNetManager.m; sourceTree = "<group>"; };
+		DB3CEAAA1D12BE91009D3F52 /* YXMenuViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXMenuViewModel.h; sourceTree = "<group>"; };
+		DB3CEAAB1D12BE91009D3F52 /* YXMenuViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXMenuViewModel.m; sourceTree = "<group>"; };
+		DB3CEAAD1D137F04009D3F52 /* YXFirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXFirstPageViewController.h; path = ../YXFirstPageViewController.h; sourceTree = "<group>"; };
+		DB3CEAAE1D137F04009D3F52 /* YXFirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXFirstPageViewController.m; path = ../YXFirstPageViewController.m; sourceTree = "<group>"; };
+		DB3CEAD61D13916B009D3F52 /* YXFirstPageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXFirstPageCell.h; sourceTree = "<group>"; };
+		DB3CEAD71D13916B009D3F52 /* YXFirstPageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXFirstPageCell.m; sourceTree = "<group>"; };
+		DB3CEB021D13A908009D3F52 /* StickCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StickCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		DB3CEB031D13A908009D3F52 /* StickCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StickCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		DB6F045D1D2A1FF70052CD75 /* YXCookMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXCookMenuView.h; sourceTree = "<group>"; };
+		DB6F045E1D2A1FF70052CD75 /* YXCookMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXCookMenuView.m; sourceTree = "<group>"; };
+		DB6F04BB1D2B95210052CD75 /* KxMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KxMenu.h; sourceTree = "<group>"; };
+		DB6F04BC1D2B95210052CD75 /* KxMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KxMenu.m; sourceTree = "<group>"; };
+		DB6F04C01D2B987D0052CD75 /* MyBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MyBundle.bundle; sourceTree = "<group>"; };
+		DBC9CE251D2BB3BA002577EB /* YXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXLoginViewController.h; path = ../YXLoginViewController.h; sourceTree = "<group>"; };
+		DBC9CE261D2BB3BA002577EB /* YXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXLoginViewController.m; path = ../YXLoginViewController.m; sourceTree = "<group>"; };
+		DBC9CE281D2D0910002577EB /* YXSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSettingViewController.h; sourceTree = "<group>"; };
+		DBC9CE291D2D0910002577EB /* YXSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSettingViewController.m; sourceTree = "<group>"; };
+		DBC9CE2B1D2DE211002577EB /* YXWelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXWelcomeViewController.h; path = ../YXWelcomeViewController.h; sourceTree = "<group>"; };
+		DBC9CE2C1D2DE211002577EB /* YXWelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXWelcomeViewController.m; path = ../YXWelcomeViewController.m; sourceTree = "<group>"; };
+		DBC9CE301D2E1577002577EB /* YXIdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXIdeaViewController.h; path = ../YXIdeaViewController.h; sourceTree = "<group>"; };
+		DBC9CE311D2E1577002577EB /* YXIdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXIdeaViewController.m; path = ../YXIdeaViewController.m; sourceTree = "<group>"; };
+		DBC9CE331D2E1CE8002577EB /* YXAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXAboutViewController.h; path = ../YXAboutViewController.h; sourceTree = "<group>"; };
+		DBC9CE341D2E1CE8002577EB /* YXAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXAboutViewController.m; path = ../YXAboutViewController.m; sourceTree = "<group>"; };
+		DBC9CE361D2E1D37002577EB /* YXQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YXQuestionViewController.h; path = ../YXQuestionViewController.h; sourceTree = "<group>"; };
+		DBC9CE371D2E1D37002577EB /* YXQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YXQuestionViewController.m; path = ../YXQuestionViewController.m; sourceTree = "<group>"; };
+		DBC9CE3E1D2E5C02002577EB /* YXSearchSomeThingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSearchSomeThingViewController.h; sourceTree = "<group>"; };
+		DBC9CE3F1D2E5C02002577EB /* YXSearchSomeThingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSearchSomeThingViewController.m; sourceTree = "<group>"; };
+		DBC9CE411D2E6835002577EB /* YXSearchViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXSearchViewModel.h; sourceTree = "<group>"; };
+		DBC9CE421D2E6835002577EB /* YXSearchViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXSearchViewModel.m; sourceTree = "<group>"; };
+		DBC9CE441D2F4394002577EB /* LBToAppStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBToAppStore.h; sourceTree = "<group>"; };
+		DBC9CE451D2F4394002577EB /* LBToAppStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBToAppStore.m; sourceTree = "<group>"; };
+		DBC9CE481D2F48C9002577EB /* YXRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXRegisterViewController.h; sourceTree = "<group>"; };
+		DBC9CE491D2F48C9002577EB /* YXRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXRegisterViewController.m; sourceTree = "<group>"; };
+		DDE25EAEFBF2DF6DBEDAD90D /* Pods-TRProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRProject/Pods-TRProject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38ADA3B01C626AAF0093502F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C335F1D2F6B9A009F7F84 /* libz.tbd in Frameworks */,
+				DB3C335D1D2F6B85009F7F84 /* libicucore.tbd in Frameworks */,
+				DB3C335B1D2F6B67009F7F84 /* MessageUI.framework in Frameworks */,
+				DB3C33591D2F6B59009F7F84 /* JavaScriptCore.framework in Frameworks */,
+				DB3C33571D2F6B49009F7F84 /* libstdc++.tbd in Frameworks */,
+				DB3C33541D2F6AF8009F7F84 /* MOBFoundation.framework in Frameworks */,
+				DB3C33551D2F6AF8009F7F84 /* SMS_SDK.framework in Frameworks */,
+				3899BC981C7D87620032ADEA /* CFNetwork.framework in Frameworks */,
+				0E67ABAA1424CA70AE73070B /* libPods-TRProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EE8CE2B24728B6AC62D7B52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDE25EAEFBF2DF6DBEDAD90D /* Pods-TRProject.debug.xcconfig */,
+				B6D5968AB9B9E44E939066EA /* Pods-TRProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		38A1A32B1C74526C007EEEB7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				386BF94C1CBB3CE200BC74F1 /* NSString+YX.h */,
+				386BF94D1CBB3CE200BC74F1 /* NSString+YX.m */,
+				386BF9491CBB3C9600BC74F1 /* NSObject+Parse.h */,
+				386BF94A1CBB3C9600BC74F1 /* NSObject+Parse.m */,
+				38A1A3401C745317007EEEB7 /* NSObject+AFNetworking.h */,
+				38A1A3411C745317007EEEB7 /* NSObject+AFNetworking.m */,
+				38A1A3441C745317007EEEB7 /* UIScrollView+Refresh.h */,
+				38A1A3451C745317007EEEB7 /* UIScrollView+Refresh.m */,
+				382C11811C7E8CDD00F34BB0 /* AppDelegate+System.h */,
+				382C11821C7E8CDD00F34BB0 /* AppDelegate+System.m */,
+				382C97681C81D686003D1D51 /* UIView+HUD.h */,
+				382C97691C81D686003D1D51 /* UIView+HUD.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		38A1A32C1C74526C007EEEB7 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				38A1A33F1C7452F2007EEEB7 /* Constant.h */,
+				3851ED221D0F081E0054BDA0 /* RequestPaths.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		38A1A32D1C74526C007EEEB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB3CE6FE1D12315E009D3F52 /* YXMenuModel.h */,
+				DB3CE6FF1D12315E009D3F52 /* YXMenuModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38A1A32E1C74526C007EEEB7 /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				DB3CEAA71D12BC2D009D3F52 /* YXNetManager.h */,
+				DB3CEAA81D12BC2D009D3F52 /* YXNetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		38A1A32F1C74526C007EEEB7 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				38A641F51C8C225D00FCBF96 /* Assets.xcassets */,
+				38A641F61C8C225D00FCBF96 /* LaunchScreen.storyboard */,
+				38A641F71C8C225D00FCBF96 /* Main.storyboard */,
+				DB6F04C01D2B987D0052CD75 /* MyBundle.bundle */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		38A1A3301C74526C007EEEB7 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		38A1A3311C74526C007EEEB7 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C33511D2F6AF8009F7F84 /* SMS_SDK */,
+				DB3CEB011D13A908009D3F52 /* Source */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		38A1A3321C74526C007EEEB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB3CEAD61D13916B009D3F52 /* YXFirstPageCell.h */,
+				DB3CEAD71D13916B009D3F52 /* YXFirstPageCell.m */,
+				DB038E401D26CD0700D84366 /* YXSearchHeaderView.h */,
+				DB038E411D26CD0700D84366 /* YXSearchHeaderView.m */,
+				DB038E431D26CD2B00D84366 /* YXSearchCell.h */,
+				DB038E441D26CD2B00D84366 /* YXSearchCell.m */,
+				DB6F045D1D2A1FF70052CD75 /* YXCookMenuView.h */,
+				DB6F045E1D2A1FF70052CD75 /* YXCookMenuView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38A1A3331C74526C007EEEB7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9CE241D2BADB0002577EB /* AllList */,
+				DBC9CE231D2BAD46002577EB /* Personal */,
+				DBC9CE4B1D2F4AA2002577EB /* Welcome */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		38A1A3361C74526C007EEEB7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3851FBDF1D0F0C110054BDA0 /* TRBaseViewModel.h */,
+				3851FBE01D0F0C110054BDA0 /* TRBaseViewModel.m */,
+				DB3CEAAA1D12BE91009D3F52 /* YXMenuViewModel.h */,
+				DB3CEAAB1D12BE91009D3F52 /* YXMenuViewModel.m */,
+				DBC9CE411D2E6835002577EB /* YXSearchViewModel.h */,
+				DBC9CE421D2E6835002577EB /* YXSearchViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		38ADA3AA1C626AAF0093502F = {
+			isa = PBXGroup;
+			children = (
+				38ADA3B51C626AAF0093502F /* TRProject */,
+				38ADA3B41C626AAF0093502F /* Products */,
+				CA5127F42421C94949953D16 /* Frameworks */,
+				1EE8CE2B24728B6AC62D7B52 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		38ADA3B41C626AAF0093502F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA3B31C626AAF0093502F /* TRProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38ADA3B51C626AAF0093502F /* TRProject */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA3B91C626AAF0093502F /* AppDelegate.h */,
+				38ADA3BA1C626AAF0093502F /* AppDelegate.m */,
+				38A1A32B1C74526C007EEEB7 /* Category */,
+				38A1A32C1C74526C007EEEB7 /* Define */,
+				38A1A32D1C74526C007EEEB7 /* Model */,
+				38A1A32E1C74526C007EEEB7 /* NetManager */,
+				38A1A32F1C74526C007EEEB7 /* Resource */,
+				38A1A3301C74526C007EEEB7 /* Tool */,
+				38A1A3311C74526C007EEEB7 /* Vendor */,
+				38A1A3321C74526C007EEEB7 /* View */,
+				38A1A3331C74526C007EEEB7 /* ViewController */,
+				38A1A3361C74526C007EEEB7 /* ViewModel */,
+				38ADA3B61C626AAF0093502F /* Supporting Files */,
+			);
+			path = TRProject;
+			sourceTree = "<group>";
+		};
+		38ADA3B61C626AAF0093502F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38ADA3B71C626AAF0093502F /* main.m */,
+				38A1A3381C74527F007EEEB7 /* PrefixHeader.pch */,
+				3851FBDD1D0F0A750054BDA0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA5127F42421C94949953D16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C335E1D2F6B9A009F7F84 /* libz.tbd */,
+				DB3C335C1D2F6B85009F7F84 /* libicucore.tbd */,
+				DB3C335A1D2F6B67009F7F84 /* MessageUI.framework */,
+				DB3C33581D2F6B59009F7F84 /* JavaScriptCore.framework */,
+				DB3C33561D2F6B49009F7F84 /* libstdc++.tbd */,
+				3899BC971C7D87620032ADEA /* CFNetwork.framework */,
+				3A8F54CE0222A3F4E0D59483 /* libPods-TRProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB3C33511D2F6AF8009F7F84 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C33521D2F6AF8009F7F84 /* MOBFoundation.framework */,
+				DB3C33531D2F6AF8009F7F84 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+		DB3CEB011D13A908009D3F52 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9CE441D2F4394002577EB /* LBToAppStore.h */,
+				DBC9CE451D2F4394002577EB /* LBToAppStore.m */,
+				DB038E3A1D26AABA00D84366 /* XLPlainFlowLayout.h */,
+				DB038E3B1D26AABA00D84366 /* XLPlainFlowLayout.m */,
+				DB6F04BB1D2B95210052CD75 /* KxMenu.h */,
+				DB6F04BC1D2B95210052CD75 /* KxMenu.m */,
+				DB3CEB021D13A908009D3F52 /* StickCollectionViewFlowLayout.h */,
+				DB3CEB031D13A908009D3F52 /* StickCollectionViewFlowLayout.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DBC9CE231D2BAD46002577EB /* Personal */ = {
+			isa = PBXGroup;
+			children = (
+				DB038E461D26E4D400D84366 /* YXMyPageViewController.h */,
+				DB038E471D26E4D400D84366 /* YXMyPageViewController.m */,
+				DBC9CE281D2D0910002577EB /* YXSettingViewController.h */,
+				DBC9CE291D2D0910002577EB /* YXSettingViewController.m */,
+				DBC9CE471D2F4886002577EB /* Login */,
+				DBC9CE391D2E2D1C002577EB /* Setting */,
+			);
+			path = Personal;
+			sourceTree = "<group>";
+		};
+		DBC9CE241D2BADB0002577EB /* AllList */ = {
+			isa = PBXGroup;
+			children = (
+				DB3CEAAD1D137F04009D3F52 /* YXFirstPageViewController.h */,
+				DB3CEAAE1D137F04009D3F52 /* YXFirstPageViewController.m */,
+				DB038E371D26A82200D84366 /* YXSearchPageViewController.h */,
+				DB038E381D26A82200D84366 /* YXSearchPageViewController.m */,
+				DB038E491D270DCA00D84366 /* YXCookMenuViewController.h */,
+				DB038E4A1D270DCA00D84366 /* YXCookMenuViewController.m */,
+				DBC9CE3E1D2E5C02002577EB /* YXSearchSomeThingViewController.h */,
+				DBC9CE3F1D2E5C02002577EB /* YXSearchSomeThingViewController.m */,
+			);
+			path = AllList;
+			sourceTree = "<group>";
+		};
+		DBC9CE391D2E2D1C002577EB /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9CE301D2E1577002577EB /* YXIdeaViewController.h */,
+				DBC9CE311D2E1577002577EB /* YXIdeaViewController.m */,
+				DBC9CE331D2E1CE8002577EB /* YXAboutViewController.h */,
+				DBC9CE341D2E1CE8002577EB /* YXAboutViewController.m */,
+				DBC9CE361D2E1D37002577EB /* YXQuestionViewController.h */,
+				DBC9CE371D2E1D37002577EB /* YXQuestionViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		DBC9CE471D2F4886002577EB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9CE251D2BB3BA002577EB /* YXLoginViewController.h */,
+				DBC9CE261D2BB3BA002577EB /* YXLoginViewController.m */,
+				DBC9CE481D2F48C9002577EB /* YXRegisterViewController.h */,
+				DBC9CE491D2F48C9002577EB /* YXRegisterViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		DBC9CE4B1D2F4AA2002577EB /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				DBC9CE2B1D2DE211002577EB /* YXWelcomeViewController.h */,
+				DBC9CE2C1D2DE211002577EB /* YXWelcomeViewController.m */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38ADA3B21C626AAF0093502F /* TRProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38ADA3CA1C626AAF0093502F /* Build configuration list for PBXNativeTarget "TRProject" */;
+			buildPhases = (
+				9AC22D19577D1A819F2A9A79 /* [CP] Check Pods Manifest.lock */,
+				38ADA3AF1C626AAF0093502F /* Sources */,
+				38ADA3B01C626AAF0093502F /* Frameworks */,
+				38ADA3B11C626AAF0093502F /* Resources */,
+				B95EF87E57D3B433C0342E7F /* [CP] Embed Pods Frameworks */,
+				4995A36D08D03708F65CDB4F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRProject;
+			productName = TRProject;
+			productReference = 38ADA3B31C626AAF0093502F /* TRProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38ADA3AB1C626AAF0093502F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YX;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tarena;
+				TargetAttributes = {
+					38ADA3B21C626AAF0093502F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = Q4A4E5KTY4;
+					};
+				};
+			};
+			buildConfigurationList = 38ADA3AE1C626AAF0093502F /* Build configuration list for PBXProject "TRProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 38ADA3AA1C626AAF0093502F;
+			productRefGroup = 38ADA3B41C626AAF0093502F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38ADA3B21C626AAF0093502F /* TRProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38ADA3B11C626AAF0093502F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A641F91C8C225D00FCBF96 /* LaunchScreen.storyboard in Resources */,
+				DB6F04C11D2B987D0052CD75 /* MyBundle.bundle in Resources */,
+				38A641F81C8C225D00FCBF96 /* Assets.xcassets in Resources */,
+				38A641FA1C8C225D00FCBF96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4995A36D08D03708F65CDB4F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRProject/Pods-TRProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AC22D19577D1A819F2A9A79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B95EF87E57D3B433C0342E7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRProject/Pods-TRProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38ADA3AF1C626AAF0093502F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBC9CE431D2E6835002577EB /* YXSearchViewModel.m in Sources */,
+				382C976A1C81D686003D1D51 /* UIView+HUD.m in Sources */,
+				DB3CEAAF1D137F04009D3F52 /* YXFirstPageViewController.m in Sources */,
+				DBC9CE321D2E1577002577EB /* YXIdeaViewController.m in Sources */,
+				DB6F045F1D2A1FF70052CD75 /* YXCookMenuView.m in Sources */,
+				DBC9CE401D2E5C02002577EB /* YXSearchSomeThingViewController.m in Sources */,
+				DB038E481D26E4D400D84366 /* YXMyPageViewController.m in Sources */,
+				DB3CEAAC1D12BE91009D3F52 /* YXMenuViewModel.m in Sources */,
+				DBC9CE461D2F4394002577EB /* LBToAppStore.m in Sources */,
+				38A1A3461C745317007EEEB7 /* NSObject+AFNetworking.m in Sources */,
+				38ADA3BB1C626AAF0093502F /* AppDelegate.m in Sources */,
+				DB3CEB041D13A908009D3F52 /* StickCollectionViewFlowLayout.m in Sources */,
+				386BF94E1CBB3CE200BC74F1 /* NSString+YX.m in Sources */,
+				DB038E3C1D26AABA00D84366 /* XLPlainFlowLayout.m in Sources */,
+				DB038E421D26CD0700D84366 /* YXSearchHeaderView.m in Sources */,
+				DBC9CE271D2BB3BA002577EB /* YXLoginViewController.m in Sources */,
+				DB3CEAD81D13916B009D3F52 /* YXFirstPageCell.m in Sources */,
+				DB3CEAA91D12BC2D009D3F52 /* YXNetManager.m in Sources */,
+				DBC9CE4A1D2F48C9002577EB /* YXRegisterViewController.m in Sources */,
+				DB038E4B1D270DCA00D84366 /* YXCookMenuViewController.m in Sources */,
+				386BF94B1CBB3C9600BC74F1 /* NSObject+Parse.m in Sources */,
+				DBC9CE2D1D2DE211002577EB /* YXWelcomeViewController.m in Sources */,
+				DBC9CE381D2E1D37002577EB /* YXQuestionViewController.m in Sources */,
+				DB038E391D26A82200D84366 /* YXSearchPageViewController.m in Sources */,
+				DB038E451D26CD2B00D84366 /* YXSearchCell.m in Sources */,
+				38A1A3481C745317007EEEB7 /* UIScrollView+Refresh.m in Sources */,
+				DBC9CE351D2E1CE8002577EB /* YXAboutViewController.m in Sources */,
+				3851FBE11D0F0C110054BDA0 /* TRBaseViewModel.m in Sources */,
+				382C11831C7E8CDD00F34BB0 /* AppDelegate+System.m in Sources */,
+				DBC9CE2A1D2D0910002577EB /* YXSettingViewController.m in Sources */,
+				DB6F04BD1D2B95210052CD75 /* KxMenu.m in Sources */,
+				DB3CE7001D12315E009D3F52 /* YXMenuModel.m in Sources */,
+				38ADA3B81C626AAF0093502F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		38ADA3C81C626AAF0093502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38ADA3C91C626AAF0093502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38ADA3CB1C626AAF0093502F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE25EAEFBF2DF6DBEDAD90D /* Pods-TRProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TRProject/Vendor/SMS_SDK",
+				);
+				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
+				INFOPLIST_FILE = TRProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycl.daydaycook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38ADA3CC1C626AAF0093502F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6D5968AB9B9E44E939066EA /* Pods-TRProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TRProject/Vendor/SMS_SDK",
+				);
+				GCC_PREFIX_HEADER = $PRODUCT_NAME/PrefixHeader.pch;
+				INFOPLIST_FILE = TRProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ycl.daydaycook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38ADA3AE1C626AAF0093502F /* Build configuration list for PBXProject "TRProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38ADA3C81C626AAF0093502F /* Debug */,
+				38ADA3C91C626AAF0093502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38ADA3CA1C626AAF0093502F /* Build configuration list for PBXNativeTarget "TRProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38ADA3CB1C626AAF0093502F /* Debug */,
+				38ADA3CC1C626AAF0093502F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38ADA3AB1C626AAF0093502F /* Project object */;
+}
